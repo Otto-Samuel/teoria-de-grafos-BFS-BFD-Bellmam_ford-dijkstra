@@ -9,7 +9,6 @@ def dijkstra(graph, source: int) -> Tuple[Dict[int, float], Dict[int, Optional[i
     dist: Dict[int, float] = {v: math.inf for v in graph.vertices()}
     parent: Dict[int, Optional[int]] = {v: None for v in graph.vertices()}
     dist[source] = 0.0
-    
     # Min-heap com (distância, vértice)
     pq: List[Tuple[float, int]] = [(0.0, source)]
     

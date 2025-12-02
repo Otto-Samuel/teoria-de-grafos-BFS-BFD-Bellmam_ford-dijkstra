@@ -2,8 +2,6 @@ import math
 import random
 from collections import defaultdict
 from typing import Dict, List, Tuple, Optional
-
-# Importar algoritmos dos módulos específicos
 from dijkstra import dijkstra
 from bellman_ford import bellman_ford
 from bfs_dfs_simple import bfs, dfs
